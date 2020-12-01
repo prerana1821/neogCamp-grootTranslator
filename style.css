@@ -24,9 +24,20 @@
         color: #ccc;
     }
     
+    #heading p {
+        text-align: start;
+        font-size: 1rem;
+        margin-top: 0;
+        padding: 0 0;
+    }
+    
+    #heading h1 {
+        font-size: 2rem;
+    }
+    
     h1 img {
         position: absolute;
-        top: 30px;
+        top: 48px;
     }
     
     .btn {
@@ -91,6 +102,7 @@
     footer {
         background-color: #111827;
         padding: 2rem 0rem;
+        margin-top: 3rem;
         border-top-right-radius: 1rem;
         border-top-left-radius: 1rem;
         text-align: center;
@@ -108,7 +120,7 @@
     
     footer p {
         color: #ffffff;
-        font-size: small;
+        font-size: inherit;
         margin: 0;
     }
     
